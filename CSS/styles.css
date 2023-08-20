@@ -103,7 +103,60 @@ background-color: white;
 width: fit-content;
 
 max-height: 0;
-
-
 }
 
+.menu-links a{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: large1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+/* Open State */
+.burger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+;
+}
+
+.burger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-icon.open span:last-child {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* Reset Closed State */
+.burger-icon span:first-child {
+  transform: none;
+}
+
+.burger-icon span:nth-child(2) {
+  opacity: 1;
+}
+
+.burger-icon span:last-child {
+  transform: none;
+}
+
+/* Sections */
+
+/* Profile Photo */
+
+.profile-image {
+border-radius: 70px; 
+width: 150px;
+height: 150px;
+
+}
