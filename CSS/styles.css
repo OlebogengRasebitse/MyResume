@@ -151,12 +151,136 @@ list-style: none;
 }
 
 /* Sections */
+ section {
+ padding-top: 4vh;
+ height: 96vh;
+ margin: 0 10rem;
+ box-sizing: border-box;
+ min-height: fit-content;
+ }
 
-/* Profile Photo */
+ section {
+  display: flex;
+ }
+
+/* Profile  Section */
 
 .profile-image {
-border-radius: 70px; 
-width: 150px;
-height: 150px;
-
+border-radius:180px; 
+width: 200px;
+height: 200px;
 }
+
+
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+
+.section-text {
+  align-self: center;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.section-text p{
+font-weight: 600;
+}
+
+
+.section-text-p1{
+  text-align: center;
+}
+
+.section-text-p2{
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* Buttons */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+ 
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+/* .btn-color-1,
+.btn-color-2 {
+  background-color: rgb(231, 219, 0) 0.1rem solid;
+} */
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(53, 53, 53, 0.1);
+}
+
+.btn-color-2 {
+  background: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn-color-2,
+.btn-color-1:hover {
+  background-color: rgba(53, 53, 53, 0.1);
+  color: rgb(0, 0, 0);
+}
+
+.btn-color-1:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-container {
+  gap: 1 rem;
+}
+
